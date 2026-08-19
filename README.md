@@ -64,8 +64,8 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Disassemblers/Decompilers
 
-* [Angr](https://github.com/angr/angr) ⭐ 9,023 | 🐛 725 | 🌐 Python | 📅 2026-08-19 - Platform-agnostic binary analysis framework. Brought to you by the Computer Security Lab at UC Santa Barbara, SEFCOM at Arizona State University, their associated CTF team, Shellphish, the open source community, and @rhelmot.
-* [Capstone](https://github.com/capstone-engine/capstone) ⭐ 8,961 | 🐛 365 | 🌐 C | 📅 2026-08-13 - Lightweight multi-platform, multi-architecture disassembly framework. Their target is to make Capstone the ultimate disassembly engine for binary analysis and reversing in the security community.
+* [Angr](https://github.com/angr/angr) ⭐ 9,022 | 🐛 725 | 🌐 Python | 📅 2026-08-19 - Platform-agnostic binary analysis framework. Brought to you by the Computer Security Lab at UC Santa Barbara, SEFCOM at Arizona State University, their associated CTF team, Shellphish, the open source community, and @rhelmot.
+* [Capstone](https://github.com/capstone-engine/capstone) ⭐ 8,962 | 🐛 365 | 🌐 C | 📅 2026-08-13 - Lightweight multi-platform, multi-architecture disassembly framework. Their target is to make Capstone the ultimate disassembly engine for binary analysis and reversing in the security community.
 * [RetDec](https://github.com/avast/retdec) ⭐ 8,606 | 🐛 458 | 🌐 C++ | 📅 2026-05-26 - Retargetable machine-code decompiler from Avast supporting ARM, MIPS, x86, and other architectures common in embedded firmware.
 * [Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,622 | 🐛 243 | 🌐 C++ | 📅 2026-07-18 - A lightweight multi-architecture assembler framework that complements Capstone.
 * [BARF](https://github.com/programa-stic/barf-project) ⭐ 1,451 | 🐛 17 | 🌐 Python | 📅 2019-11-24 - A binary analysis and reverse engineering framework with support for ROP gadget search and CFG recovery.
@@ -99,7 +99,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 ### Firmware Supply Chain and SBOM
 
 * [Grype](https://github.com/anchore/grype) ⭐ 12,763 | 🐛 402 | 🌐 Go | 📅 2026-08-18 - Vulnerability scanner that consumes SBOMs to identify known CVEs in firmware dependencies.
-* [Syft](https://github.com/anchore/syft) ⭐ 9,434 | 🐛 637 | 🌐 Go | 📅 2026-08-18 - SBOM generator for filesystems and artifacts, useful for firmware package/component inventories.
+* [Syft](https://github.com/anchore/syft) ⭐ 9,435 | 🐛 637 | 🌐 Go | 📅 2026-08-18 - SBOM generator for filesystems and artifacts, useful for firmware package/component inventories.
 * [Sigstore Cosign](https://github.com/sigstore/cosign) ⭐ 6,220 | 🐛 163 | 🌐 Go | 📅 2026-08-18 - Tooling for keyless signing and verification of firmware/container artifacts in CI/CD pipelines.
 * [CVE Binary Tool](https://github.com/ossf/cve-bin-tool) ⭐ 1,747 | 🐛 232 | 🌐 Python | 📅 2026-08-19 - OpenSSF tool that scans binaries directly for 350+ known-vulnerable open source components (OpenSSL, libpng, BusyBox, and more), without requiring a pre-built SBOM; can also generate one from the scan.
 * [in-toto](https://in-toto.io/) - Framework for supply chain integrity that records signed provenance steps and enforces layout verification.
@@ -118,7 +118,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 * .NET
   * [ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 25,892 | 🐛 189 | 🌐 C# | 📅 2026-08-19 - .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (\&more) - cross-platform!
-  * [dnSpy](https://github.com/dnSpyEx/dnSpy) ⭐ 10,923 | 🐛 150 | 🌐 C# | 📅 2026-07-20 - .NET debugger and assembly editor.
+  * [dnSpy](https://github.com/dnSpyEx/dnSpy) ⭐ 10,924 | 🐛 150 | 🌐 C# | 📅 2026-07-20 - .NET debugger and assembly editor.
   * [de4dot](https://github.com/de4dot/de4dot) ⚠️ Archived - .NET deobfuscator.
 * Java
   * [JADX](https://github.com/skylot/jadx) ⭐ 50,128 | 🐛 443 | 🌐 Java | 📅 2026-08-05 - Dex to Java decompiler.
@@ -214,7 +214,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Emulation Tools
 
-* [Unicorn Engine](https://github.com/unicorn-engine/unicorn) ⭐ 9,243 | 🐛 212 | 🌐 C | 📅 2026-07-30 - A lightweight multi-architecture CPU emulator framework providing pure CPU emulation for ARM, MIPS, x86, RISC-V, and more.
+* [Unicorn Engine](https://github.com/unicorn-engine/unicorn) ⭐ 9,244 | 🐛 212 | 🌐 C | 📅 2026-07-30 - A lightweight multi-architecture CPU emulator framework providing pure CPU emulation for ARM, MIPS, x86, RISC-V, and more.
 * [Qiling](https://github.com/qilingframework/qiling) ⭐ 6,065 | 🐛 123 | 🌐 Python | 📅 2026-07-22 - An advanced binary emulation framework supporting cross-platform OS-level emulation for Windows, Linux, Android, BSD, UEFI, and multiple architectures.
 * [PANDA](https://github.com/panda-re/panda) ⭐ 2,774 | 🐛 97 | 🌐 C | 📅 2026-07-29 - Platform for Architecture-Neutral Dynamic Analysis with record/replay functionality and LLVM IR translation for whole-system analysis.
 * [Firmadyne](https://github.com/firmadyne/firmadyne) ⭐ 2,100 | 🐛 107 | 🌐 Shell | 📅 2024-07-21 - Automated system for emulating and analyzing Linux-based embedded firmware; extracts and boots firmware images in QEMU to enable dynamic vulnerability discovery.
@@ -279,7 +279,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### RF Tools (Non-SDR)
 
-* [Proxmark3](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,964 | 🐛 79 | 🌐 C | 📅 2026-08-19 - Open-source RFID research platform for low-level interaction, analysis, and testing across a wide range of LF and HF tags and systems.
+* [Proxmark3](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,964 | 🐛 76 | 🌐 C | 📅 2026-08-19 - Open-source RFID research platform for low-level interaction, analysis, and testing across a wide range of LF and HF tags and systems.
 * [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 2,931 | 🐛 117 | 🌐 C | 📅 2026-08-10 - Pocket friendly powerful LF and HF emulation & manipulation tool which is based on the open-source project ChameleonMini.
 * [Awesome Flipper Zero](https://github.com/RogueMaster/awesome-flipperzero-withModules) ⭐ 2,005 | 🐛 0 | 🌐 C | 📅 2026-08-17 - A collection of Awesome resources for the Flipper Zero device.
 * [Flipper Zero](https://docs.flipper.net/) - Portable multi-tool for pentesters and geeks in a toy-like body. It loves hacking digital stuff, such as radio protocols, access control systems, hardware and more.
@@ -300,7 +300,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 ### Wifi Tools
 
 * [Pwnagotchi](https://pwnagotchi.ai/) - A2C-based “AI” powered by bettercap and running on a Raspberry Pi Zero W that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures.
-* [ESP32Maurauder](https://github.com/justcallmekoko/ESP32Marauder) ⭐ 12,031 | 🐛 326 | 🌐 C++ | 📅 2026-08-19 - A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32.
+* [ESP32Maurauder](https://github.com/justcallmekoko/ESP32Marauder) ⭐ 12,032 | 🐛 326 | 🌐 C++ | 📅 2026-08-19 - A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32.
 
 ## Further Learning and Training
 
@@ -318,20 +318,20 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ## Open Source Intelligence (OSINT)
 
-* [Awesome OSINT](https://github.com/jivoi/awesome-osint) ⭐ 28,165 | 🐛 3 | 📅 2026-08-18
+* [Awesome OSINT](https://github.com/jivoi/awesome-osint) ⭐ 28,166 | 🐛 3 | 📅 2026-08-18
 
 ## Other Awesome Lists
 
 List of security lists.
 
 * General Security
-  * [Hacking](https://github.com/carpedm20/awesome-hacking) ⭐ 16,897 | 🐛 68 | 📅 2024-06-02
+  * [Hacking](https://github.com/carpedm20/awesome-hacking) ⭐ 16,899 | 🐛 68 | 📅 2024-06-02
   * [Security](https://github.com/sbilly/awesome-security) ⭐ 14,766 | 🐛 309 | 📅 2026-01-11
   * [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) ⭐ 14,133 | 🐛 25 | 📅 2024-06-07
   * [Capture the Flag](https://github.com/apsdehal/awesome-ctf) ⭐ 11,765 | 🐛 64 | 🌐 JavaScript | 📅 2024-07-22
   * [Honeypots](https://github.com/paralax/awesome-honeypots) ⭐ 10,522 | 🐛 21 | 🌐 Python | 📅 2026-06-01
   * [Android Security](https://github.com/ashishb/android-security-awesome) ⭐ 9,618 | 🐛 2 | 🌐 Makefile | 📅 2026-08-17
-  * [Incident Response](https://github.com/meirwah/awesome-incident-response) ⭐ 9,337 | 🐛 74 | 📅 2026-07-15
+  * [Incident Response](https://github.com/meirwah/awesome-incident-response) ⭐ 9,338 | 🐛 74 | 📅 2026-07-15
   * [Application Security](https://github.com/paragonie/awesome-appsec) ⭐ 7,034 | 🐛 40 | 🌐 PHP | 📅 2025-02-22
   * [Fuzzing](https://github.com/cpuu/awesome-fuzzing) ⭐ 986 | 🐛 1 | 📅 2026-07-09
 * Embedded
@@ -343,7 +343,7 @@ List of security lists.
     * [CANb IDs](https://github.com/iDoka/awesome-automotive-can-id) ⭐ 976 | 🐛 0 | 📅 2026-08-12
     * [Awesome Automotive Security](https://github.com/hexsecs/awesome-automotive-security) ⭐ 9 | 🐛 0 | 📅 2026-05-16
 * Meta
-  * [awesome](https://github.com/sindresorhus/awesome) ⭐ 497,622 | 🐛 102 | 📅 2026-08-18
+  * [awesome](https://github.com/sindresorhus/awesome) ⭐ 497,658 | 🐛 102 | 📅 2026-08-18
   * [lists](https://github.com/jnv/lists) ⭐ 11,422 | 🐛 21 | 📅 2026-03-23
 
 ## Contribute
