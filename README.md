@@ -49,28 +49,28 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Binary Parsing and Analysis Tools
 
-* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,241 | 🐛 92 | 🌐 Rust | 📅 2026-08-11 - Fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images.
-* [LIEF](https://github.com/lief-project/LIEF) ⭐ 5,536 | 🐛 32 | 🌐 C++ | 📅 2026-08-15 - Library to Instrument Executable Formats: parse, modify, and abstract ELF, PE, Mach-O, DEX, and OAT binaries found in firmware images.
-* [FLARE-FLOSS](https://github.com/mandiant/flare-floss) ⭐ 4,123 | 🐛 123 | 🌐 Python | 📅 2026-08-18 - FLARE Obfuscated String Solver that automatically extracts obfuscated, encoded, and stack strings from binaries for rapid firmware triage.
-* [unblob](https://github.com/onekey-sec/unblob) ⭐ 2,542 | 🐛 39 | 🌐 Python | 📅 2026-08-18 - Fast, accurate firmware extraction engine from ONEKEY supporting 100+ archive, compression, and filesystem formats with fewer false positives than Binwalk. Presented at DEF CON 30.
+* [Binwalk](https://github.com/ReFirmLabs/binwalk) ⭐ 14,243 | 🐛 92 | 🌐 Rust | 📅 2026-08-11 - Fast, easy to use tool for analyzing, reverse engineering, and extracting firmware images.
+* [LIEF](https://github.com/lief-project/LIEF) ⭐ 5,539 | 🐛 32 | 🌐 C++ | 📅 2026-08-20 - Library to Instrument Executable Formats: parse, modify, and abstract ELF, PE, Mach-O, DEX, and OAT binaries found in firmware images.
+* [FLARE-FLOSS](https://github.com/mandiant/flare-floss) ⭐ 4,126 | 🐛 117 | 🌐 Python | 📅 2026-08-20 - FLARE Obfuscated String Solver that automatically extracts obfuscated, encoded, and stack strings from binaries for rapid firmware triage.
+* [unblob](https://github.com/onekey-sec/unblob) ⭐ 2,542 | 🐛 37 | 🌐 Python | 📅 2026-08-20 - Fast, accurate firmware extraction engine from ONEKEY supporting 100+ archive, compression, and filesystem formats with fewer false positives than Binwalk. Presented at DEF CON 30.
 * [checksec](https://github.com/slimm609/checksec.sh) ⭐ 2,365 | 🐛 3 | 🌐 Go | 📅 2026-08-04 - Shell script to check binary security hardening flags (NX, PIE, RELRO, stack canary, ASLR) on ELF executables extracted from firmware.
 * [OFRAK](https://github.com/redballoonsecurity/ofrak) ⭐ 2,065 | 🐛 154 | 🌐 Python | 📅 2026-08-17 - Binary analysis and modification platform that combines the ability to unpack, analyze, modify, and repack binaries.
-* [cwe\_checker](https://github.com/fkie-cad/cwe_checker) ⭐ 1,349 | 🐛 30 | 🌐 Rust | 📅 2026-08-18 - Binary analysis tool that checks ELF binaries for violations of Common Weakness Enumerations (CWEs) using abstract interpretation, with cross-architecture support.
+* [cwe\_checker](https://github.com/fkie-cad/cwe_checker) ⭐ 1,349 | 🐛 29 | 🌐 Rust | 📅 2026-08-20 - Binary analysis tool that checks ELF binaries for violations of Common Weakness Enumerations (CWEs) using abstract interpretation, with cross-architecture support.
 * [firmwalker](https://github.com/craigz28/firmwalker) ⭐ 1,222 | 🐛 5 | 🌐 Shell | 📅 2023-08-29 - Searches extracted firmware filesystems for interesting files, credentials, configuration, and known-vulnerable components.
-* [VulHunt](https://github.com/vulhunt-re/vulhunt) ⭐ 877 | 🐛 2 | 🌐 C++ | 📅 2026-08-12 - Lua-rule-based vulnerability detection framework from Binarly's research team that operates across disassembly, IR, and decompiled code simultaneously, with dedicated UEFI module scanning support.
+* [VulHunt](https://github.com/vulhunt-re/vulhunt) ⭐ 878 | 🐛 2 | 🌐 C++ | 📅 2026-08-12 - Lua-rule-based vulnerability detection framework from Binarly's research team that operates across disassembly, IR, and decompiled code simultaneously, with dedicated UEFI module scanning support.
 * [argXtract](https://github.com/projectbtle/argXtract) ⚠️ Archived - Statically extracts arguments to SVC calls and HAL functions from stripped ARM Cortex-M BLE firmware without symbol tables, enabling security audits of Nordic and similar binaries. ACSAC 2021.
 * [SCOUT](https://github.com/R00T-Kim/SCOUT) ⭐ 10 | 🐛 1 | 🌐 Python | 📅 2026-06-08 - Deterministic firmware analysis pipeline emitting SARIF 2.1, CycloneDX 1.6 + VEX SBOM, and hash-anchored evidence chains; auto-detects Ghidra and runs P-code SSA dataflow taint with 4-tier confidence caps. Pure stdlib (no pip dependencies).
 * [Kaitai Struct](https://kaitai.io/) - Declarative language used to describe various binary data structures, laid out in files or in memory: i.e. binary file formats, network stream packet formats, etc.
 
 ### Disassemblers/Decompilers
 
-* [Angr](https://github.com/angr/angr) ⭐ 9,022 | 🐛 725 | 🌐 Python | 📅 2026-08-19 - Platform-agnostic binary analysis framework. Brought to you by the Computer Security Lab at UC Santa Barbara, SEFCOM at Arizona State University, their associated CTF team, Shellphish, the open source community, and @rhelmot.
-* [Capstone](https://github.com/capstone-engine/capstone) ⭐ 8,962 | 🐛 365 | 🌐 C | 📅 2026-08-13 - Lightweight multi-platform, multi-architecture disassembly framework. Their target is to make Capstone the ultimate disassembly engine for binary analysis and reversing in the security community.
+* [Angr](https://github.com/angr/angr) ⭐ 9,021 | 🐛 725 | 🌐 Python | 📅 2026-08-20 - Platform-agnostic binary analysis framework. Brought to you by the Computer Security Lab at UC Santa Barbara, SEFCOM at Arizona State University, their associated CTF team, Shellphish, the open source community, and @rhelmot.
+* [Capstone](https://github.com/capstone-engine/capstone) ⭐ 8,963 | 🐛 366 | 🌐 C | 📅 2026-08-13 - Lightweight multi-platform, multi-architecture disassembly framework. Their target is to make Capstone the ultimate disassembly engine for binary analysis and reversing in the security community.
 * [RetDec](https://github.com/avast/retdec) ⭐ 8,606 | 🐛 458 | 🌐 C++ | 📅 2026-05-26 - Retargetable machine-code decompiler from Avast supporting ARM, MIPS, x86, and other architectures common in embedded firmware.
 * [Keystone](https://github.com/keystone-engine/keystone) ⭐ 2,622 | 🐛 243 | 🌐 C++ | 📅 2026-07-18 - A lightweight multi-architecture assembler framework that complements Capstone.
 * [BARF](https://github.com/programa-stic/barf-project) ⭐ 1,451 | 🐛 17 | 🌐 Python | 📅 2019-11-24 - A binary analysis and reverse engineering framework with support for ROP gadget search and CFG recovery.
-* [Angr Management](https://github.com/angr/angr-management) ⭐ 1,168 | 🐛 245 | 🌐 Python | 📅 2026-08-19 - Multi-architecture binary analysis toolkit, with the capability to perform dynamic symbolic execution (like Mayhem, KLEE, etc.) and various static analyses on binaries. If you'd like to learn how to use it, you're in the right place!
-* [Vivisect](https://github.com/vivisect/vivisect) ⭐ 999 | 🐛 115 | 🌐 Python | 📅 2026-08-15 - A combined disassembler/static analysis/symbolic execution/debugger framework.
+* [Angr Management](https://github.com/angr/angr-management) ⭐ 1,170 | 🐛 245 | 🌐 Python | 📅 2026-08-20 - Multi-architecture binary analysis toolkit, with the capability to perform dynamic symbolic execution (like Mayhem, KLEE, etc.) and various static analyses on binaries. If you'd like to learn how to use it, you're in the right place!
+* [Vivisect](https://github.com/vivisect/vivisect) ⭐ 999 | 🐛 116 | 🌐 Python | 📅 2026-08-15 - A combined disassembler/static analysis/symbolic execution/debugger framework.
 * [IDA Pro](https://hex-rays.com/ida-pro/) 💰 - Disassembler capable of creating maps of their execution to show the binary instructions that are actually executed by the processor in a symbolic representation (assembly language). Advanced techniques have been implemented into IDA Pro so that it can generate assembly language source code from machine-executable code and make this complex code more human-readable.
 * [Binary Ninja](https://binary.ninja/) 💰 - Interactive disassembler, decompiler, and binary analysis platform for reverse engineers, malware analysts, vulnerability researchers, and software developers that runs on Windows, macOS, and Linux.
 * [Cutter](https://cutter.re/) - Free and Open Source RE Platform powered by Rizini.
@@ -91,22 +91,22 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Secure Boot and Firmware Trust
 
-* [MCUboot](https://github.com/mcu-tools/mcuboot) ⭐ 2,034 | 🐛 102 | 🌐 C | 📅 2026-08-13 - Secure bootloader for 32-bit microcontrollers supporting signed images, rollback protection, and measured boot flows.
-* [wolfBoot](https://github.com/wolfSSL/wolfBoot) ⭐ 521 | 🐛 13 | 🌐 C | 📅 2026-08-18 - Portable secure bootloader for 32-bit MCUs using wolfCrypt for image signature verification (Ed25519, ECC, RSA, post-quantum LMS/XMSS), with delta updates, encrypted images, and explicit voltage-glitch countermeasures.
+* [MCUboot](https://github.com/mcu-tools/mcuboot) ⭐ 2,035 | 🐛 102 | 🌐 C | 📅 2026-08-13 - Secure bootloader for 32-bit microcontrollers supporting signed images, rollback protection, and measured boot flows.
+* [wolfBoot](https://github.com/wolfSSL/wolfBoot) ⭐ 521 | 🐛 13 | 🌐 C | 📅 2026-08-19 - Portable secure bootloader for 32-bit MCUs using wolfCrypt for image signature verification (Ed25519, ECC, RSA, post-quantum LMS/XMSS), with delta updates, encrypted images, and explicit voltage-glitch countermeasures.
 * [AVB (Android Verified Boot)](https://android.googlesource.com/platform/external/avb/+/master/README.md) - Reference implementation and design guidance for chained trust and verified partitions in embedded Android systems.
 * [U-Boot Verified Boot](https://docs.u-boot.org/en/latest/usage/fit/verified-boot.html) - FIT-signature based verified boot support for embedded Linux boot chains.
 
 ### Firmware Supply Chain and SBOM
 
-* [Grype](https://github.com/anchore/grype) ⭐ 12,763 | 🐛 402 | 🌐 Go | 📅 2026-08-18 - Vulnerability scanner that consumes SBOMs to identify known CVEs in firmware dependencies.
-* [Syft](https://github.com/anchore/syft) ⭐ 9,435 | 🐛 637 | 🌐 Go | 📅 2026-08-18 - SBOM generator for filesystems and artifacts, useful for firmware package/component inventories.
-* [Sigstore Cosign](https://github.com/sigstore/cosign) ⭐ 6,220 | 🐛 163 | 🌐 Go | 📅 2026-08-18 - Tooling for keyless signing and verification of firmware/container artifacts in CI/CD pipelines.
-* [CVE Binary Tool](https://github.com/ossf/cve-bin-tool) ⭐ 1,747 | 🐛 232 | 🌐 Python | 📅 2026-08-19 - OpenSSF tool that scans binaries directly for 350+ known-vulnerable open source components (OpenSSL, libpng, BusyBox, and more), without requiring a pre-built SBOM; can also generate one from the scan.
+* [Grype](https://github.com/anchore/grype) ⭐ 12,765 | 🐛 403 | 🌐 Go | 📅 2026-08-19 - Vulnerability scanner that consumes SBOMs to identify known CVEs in firmware dependencies.
+* [Syft](https://github.com/anchore/syft) ⭐ 9,440 | 🐛 627 | 🌐 Go | 📅 2026-08-19 - SBOM generator for filesystems and artifacts, useful for firmware package/component inventories.
+* [Sigstore Cosign](https://github.com/sigstore/cosign) ⭐ 6,222 | 🐛 162 | 🌐 Go | 📅 2026-08-19 - Tooling for keyless signing and verification of firmware/container artifacts in CI/CD pipelines.
+* [CVE Binary Tool](https://github.com/ossf/cve-bin-tool) ⭐ 1,748 | 🐛 232 | 🌐 Python | 📅 2026-08-19 - OpenSSF tool that scans binaries directly for 350+ known-vulnerable open source components (OpenSSL, libpng, BusyBox, and more), without requiring a pre-built SBOM; can also generate one from the scan.
 * [in-toto](https://in-toto.io/) - Framework for supply chain integrity that records signed provenance steps and enforces layout verification.
 
 ### Fuzzing Tools
 
-* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,725 | 🐛 25 | 🌐 C | 📅 2026-08-18 - A coverage-guided fuzzer with enhanced mutations, QEMU and Unicorn emulation modes, and custom power schedules.
+* [AFL++](https://github.com/AFLplusplus/AFLplusplus) ⭐ 6,729 | 🐛 25 | 🌐 C | 📅 2026-08-18 - A coverage-guided fuzzer with enhanced mutations, QEMU and Unicorn emulation modes, and custom power schedules.
 * [honggfuzz](https://github.com/google/honggfuzz) ⭐ 3,374 | 🐛 30 | 🌐 C | 📅 2026-06-19 - A feedback-driven evolutionary fuzzer supporting hardware-based coverage (Intel BTS/PT) and persistent mode for extreme speed.
 * [boofuzz](https://github.com/jtpereyda/boofuzz) ⭐ 2,355 | 🐛 101 | 🌐 Python | 📅 2026-08-06 - Actively maintained network protocol fuzzer and the spiritual successor to Sulley, with session management, target monitoring, and protocol graph support.
 * [Fuzzowski](https://github.com/nccgroup/fuzzowski) ⭐ 794 | 🐛 13 | 🌐 Python | 📅 2024-01-29 - A network protocol fuzzer based on the Sulley/BooFuzz framework with support for TCP/UDP/SSL protocols.
@@ -117,16 +117,16 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 ### Language Specific Decompilers
 
 * .NET
-  * [ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 25,892 | 🐛 189 | 🌐 C# | 📅 2026-08-19 - .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (\&more) - cross-platform!
-  * [dnSpy](https://github.com/dnSpyEx/dnSpy) ⭐ 10,924 | 🐛 150 | 🌐 C# | 📅 2026-07-20 - .NET debugger and assembly editor.
+  * [ILSpy](https://github.com/icsharpcode/ILSpy) ⭐ 25,898 | 🐛 189 | 🌐 C# | 📅 2026-08-20 - .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (\&more) - cross-platform!
+  * [dnSpy](https://github.com/dnSpyEx/dnSpy) ⭐ 10,931 | 🐛 149 | 🌐 C# | 📅 2026-07-20 - .NET debugger and assembly editor.
   * [de4dot](https://github.com/de4dot/de4dot) ⚠️ Archived - .NET deobfuscator.
 * Java
-  * [JADX](https://github.com/skylot/jadx) ⭐ 50,128 | 🐛 443 | 🌐 Java | 📅 2026-08-05 - Dex to Java decompiler.
+  * [JADX](https://github.com/skylot/jadx) ⭐ 50,140 | 🐛 442 | 🌐 Java | 📅 2026-08-19 - Dex to Java decompiler.
   * [JD-GUI](https://github.com/java-decompiler/jd-gui) ⭐ 15,176 | 🐛 248 | 🌐 Java | 📅 2024-07-08 - Java decompiler.
 
 ### Security Auditing Frameworks
 
-* [Metasploit](https://github.com/rapid7/metasploit-framework) ⭐ 38,830 | 🐛 612 | 🌐 Ruby | 📅 2026-08-18 - Open source penetration testing framework (BSD licensed) maintained by Rapid7, with modules for exploiting vulnerabilities, scanning, and post-exploitation across embedded Linux and IoT targets.
+* [Metasploit](https://github.com/rapid7/metasploit-framework) ⭐ 38,832 | 🐛 616 | 🌐 Ruby | 📅 2026-08-18 - Open source penetration testing framework (BSD licensed) maintained by Rapid7, with modules for exploiting vulnerabilities, scanning, and post-exploitation across embedded Linux and IoT targets.
 * [kernel-hardening-checker](https://github.com/a13xp0p0v/kernel-hardening-checker) ⭐ 2,120 | 🐛 13 | 🌐 Python | 📅 2026-08-16 - Audits Linux kernel Kconfig options and boot parameters against KSPP, CLIP OS, and STIG hardening recommendations; supports ARM, ARM64, x86, and RISC-V. Works in Yocto/OpenEmbedded pipelines.
 * [IoTGoat](https://github.com/OWASP/IoTGoat) ⭐ 918 | 🐛 2 | 🌐 C | 📅 2025-10-05 - OWASP intentionally insecure firmware for Raspberry Pi and x86 platforms, providing hands-on practice for the OWASP IoT Top 10 vulnerabilities.
 * [FwAnalyzer (Firmware Analyzer)](https://github.com/cruise-automation/fwanalyzer) ⭐ 517 | 🐛 3 | 🌐 Go | 📅 2023-10-08 - Tool to analyze (ext2/3/4), FAT/VFat, SquashFS, UBIFS filesystem images, cpio archives, and directory content using a set of configurable rules.
@@ -136,20 +136,20 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 ### Firmware Taint Analysis
 
 * [KARONTE](https://github.com/ucsb-seclab/karonte) ⭐ 429 | 🐛 10 | 🌐 Python | 📅 2021-09-18 - Static analysis tool that tracks untrusted input flows across binary boundaries (shared files, sockets, env vars) in embedded Linux firmware using angr-based inter-binary taint propagation. IEEE S\&P 2020.
-* [SaTC](https://github.com/NSSL-SJTU/SaTC) ⭐ 351 | 🐛 27 | 🌐 Python | 📅 2024-12-12 - Anchors taint analysis to string literals shared between web front-end and back-end binaries to pinpoint user-controlled input entry points; found 33 unknown bugs in commercial firmware. USENIX Security 2021.
+* [SaTC](https://github.com/NSSL-SJTU/SaTC) ⭐ 352 | 🐛 27 | 🌐 Python | 📅 2024-12-12 - Anchors taint analysis to string literals shared between web front-end and back-end binaries to pinpoint user-controlled input entry points; found 33 unknown bugs in commercial firmware. USENIX Security 2021.
 * [EmTaint](https://github.com/kuc001/EmTaint) ⭐ 47 | 🐛 3 | 🌐 Python | 📅 2023-05-27 - Structured symbolic expression-based taint analysis with on-demand alias resolution for embedded Linux firmware; found 151 0-day vulnerabilities across 35 real-world images. ISSTA 2023.
 
 ### RTOS Security
 
 * [FreeRTOS Security](https://www.freertos.org/Security/01-Security-overview) - Security features and documentation for FreeRTOS including MQTT over TLS, PKCS#11, and PSA Certified implementation.
 * [Zephyr Project Security](https://docs.zephyrproject.org/latest/security/index.html) - Security documentation for the Zephyr RTOS including TF-M integration, verified boot, and security testing.
-* [RT-Thread Security](https://github.com/RT-Thread/rt-thread/security) ⭐ 12,161 | 🐛 487 | 🌐 C | 📅 2026-08-17 - Security resources and vulnerability reporting for RT-Thread IoT OS.
+* [RT-Thread Security](https://github.com/RT-Thread/rt-thread/security) ⭐ 12,160 | 🐛 484 | 🌐 C | 📅 2026-08-20 - Security resources and vulnerability reporting for RT-Thread IoT OS.
 * [seL4](https://sel4.systems/) - Formally verified microkernel with machine-checked proofs of functional correctness, integrity, and confidentiality, providing the strongest security guarantees of any production OS kernel.
 * [Tock OS](https://www.tockos.org/) - Rust-based embedded OS for microcontrollers designed for security through hardware-enforced memory isolation and a capability-based driver model, targeting Cortex-M and RISC-V platforms.
 
 ### TEE/Trusted Execution Environments
 
-* [Intel SGX SDK](https://github.com/intel/linux-sgx) ⭐ 1,449 | 🐛 139 | 🌐 C++ | 📅 2026-08-13 - Open-source Linux SDK and Platform Software for Intel Software Guard Extensions, providing the build/install toolchain for developing and deploying hardware-based memory enclave applications.
+* [Intel SGX SDK](https://github.com/intel/linux-sgx) ⭐ 1,449 | 🐛 138 | 🌐 C++ | 📅 2026-08-13 - Open-source Linux SDK and Platform Software for Intel Software Guard Extensions, providing the build/install toolchain for developing and deploying hardware-based memory enclave applications.
 * [Samsung TrustZone Research Toolkit](https://github.com/quarkslab/samsung-trustzone-research) ⭐ 160 | 🐛 0 | 🌐 Python | 📅 2019-12-16 - Quarkslab's RE toolkit for Samsung Kinibi TrustZone: Ghidra loader for MCLF trustlet binaries, Unicorn-based trustlet emulator for exploit development, and Python bindings for communicating with Trusted Applications.
 * [OP-TEE](https://optee.readthedocs.io/) - Open Source Trusted Execution Environment providing isolation for secure world execution on ARM TrustZone processors.
 * [Trusty TEE](https://source.android.com/docs/security/features/trusty) - Trusted Execution Environment used in Android for secure services and keystore.
@@ -157,7 +157,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Root of Trust and TPM
 
-* [TPM 2.0 TS](https://github.com/tpm2-software/tpm2-tss) ⭐ 895 | 🐛 147 | 🌐 C | 📅 2026-08-13 - TCG Software Stack for TPM 2.0 providing API for key management and attestation.
+* [TPM 2.0 TS](https://github.com/tpm2-software/tpm2-tss) ⭐ 896 | 🐛 147 | 🌐 C | 📅 2026-08-13 - TCG Software Stack for TPM 2.0 providing API for key management and attestation.
 * [tpm2-algtest](https://github.com/crocs-muni/tpm2-algtest) ⭐ 7 | 🐛 2 | 🌐 C | 📅 2024-12-19 - Tests real TPM 2.0 chips for RNG output quality, key generation timing, algorithm support, and implementation fingerprints across 80+ firmware revisions from 6 vendors. From CRoCS (discoverers of ROCA). CHES 2024.
 * [TPM 2.0 Reference Implementation](https://trustedcomputinggroup.org/resource-library/) - TPM 2.0 specification and reference software from the TCG.
 * [IBM Software TPM](https://sourceforge.net/projects/ibmswtpm2/) - Software TPM 2.0 emulator for testing and development.
@@ -187,10 +187,10 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 * [BtleJuice](https://github.com/DigitalSecurity/btlejuice) ⚠️ Archived - Bluetooth Low Energy MITM proxy framework for real-time interception and manipulation of BLE communications.
 * [GATTacker](https://github.com/securing/gattacker) ⭐ 844 | 🐛 18 | 🌐 JavaScript | 📅 2022-01-31 - BLE MITM tool for intercepting and relaying GATT profiles to test BLE device authentication and data integrity.
 * [InternalBlue](https://github.com/seemoo-lab/internalblue) ⭐ 785 | 🐛 21 | 🌐 Python | 📅 2024-08-21 - Bluetooth experimentation framework enabling binary patching, LMP injection, and live monitoring of Broadcom/Cypress firmware on commodity devices (iPhone, Samsung Galaxy, Raspberry Pi) without custom hardware.
-* [BlueToolkit](https://github.com/sgxgsx/BlueToolkit) ⭐ 724 | 🐛 5 | 🌐 Jupyter Notebook | 📅 2026-03-05 - Modular black-box vulnerability testing framework for Bluetooth Classic and BLE with Recon/Exploit/Report modules covering 40+ public exploits (MITM, RCE, DoS); used to uncover 128 vulnerabilities across 22 vehicles from major automakers. USENIX WOOT 2025.
+* [BlueToolkit](https://github.com/sgxgsx/BlueToolkit) ⭐ 726 | 🐛 5 | 🌐 Jupyter Notebook | 📅 2026-03-05 - Modular black-box vulnerability testing framework for Bluetooth Classic and BLE with Recon/Exploit/Report modules covering 40+ public exploits (MITM, RCE, DoS); used to uncover 128 vulnerabilities across 22 vehicles from major automakers. USENIX WOOT 2025.
 * [BrakTooth](https://github.com/Matheus-Garbelini/braktooth_esp32_bluetooth_classic_attacks) ⭐ 579 | 🐛 32 | 📅 2024-08-31 - Directed exploit suite for Bluetooth Classic LMP layer vulnerabilities, targeting protocol layers inaccessible from standard host stacks; affected 1,400+ products from Intel, Qualcomm, and Broadcom. USENIX Security 2022.
 * [SweynTooth](https://github.com/Matheus-Garbelini/sweyntooth_bluetooth_low_energy_attacks) ⭐ 333 | 🐛 15 | 🌐 Python | 📅 2021-11-23 - Runnable PoC exploits for 18 BLE link-layer and L2CAP vulnerabilities across TI, NXP, Cypress, Dialog, Microchip, and STMicro SDKs, including full pairing bypass and link-layer overflows. USENIX ATC 2020.
-* [WHAD Framework](https://github.com/whad-team/whad-client) ⭐ 326 | 🐛 73 | 🌐 Python | 📅 2026-06-18 - Hardware-agnostic multi-protocol wireless security framework (BLE, Zigbee, Enhanced ShockBurst, ANT) using a cheap nRF52840 dongle as a universal attack radio; foundation for Quarkslab's BLE GATT fuzzer. DEF CON 32 (2024).
+* [WHAD Framework](https://github.com/whad-team/whad-client) ⭐ 327 | 🐛 73 | 🌐 Python | 📅 2026-06-18 - Hardware-agnostic multi-protocol wireless security framework (BLE, Zigbee, Enhanced ShockBurst, ANT) using a cheap nRF52840 dongle as a universal attack radio; foundation for Quarkslab's BLE GATT fuzzer. DEF CON 32 (2024).
 * [nRF Sniffer for Bluetooth LE](https://www.nordicsemi.com/Products/Development-tools/nRF-Sniffer-for-Bluetooth-LE) 💰 - Nordic Semiconductor's BLE packet sniffer for capturing and analyzing Bluetooth Low Energy traffic with Wireshark integration. Wireshark plugin is open source; dongle firmware is a closed binary requiring Nordic hardware.
 * [Bettercap BLE](https://www.bettercap.org/modules/ble/) - BLE scanning, enumeration, and characteristic read/write module integrated into the bettercap Swiss-army knife framework.
 
@@ -201,24 +201,24 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Baseband Security
 
-* [Rayhunter](https://github.com/EFForg/rayhunter) ⭐ 5,583 | 🐛 95 | 🌐 Rust | 📅 2026-08-19 - EFF's open source Rust tool that runs on a cheap mobile hotspot to detect cell-site simulators (IMSI catchers/Stingrays) by monitoring signaling traffic for suspicious behavior like forced 2G downgrades.
-* [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 875 | 🐛 17 | 🌐 Python | 📅 2026-07-11 - Full-system emulation platform for Samsung (Shannon) and MediaTek cellular baseband firmware with AFL++ fuzzing integration, a task-injection ModKit, and dynamic debugging support. Found 7 pre-authentication memory corruptions. NDSS 2022.
-* [OsmocomBB](https://github.com/osmocom/osmocom-bb) ⭐ 329 | 🐛 1 | 🌐 C | 📅 2026-06-17 - Free Software GSM baseband (Layer 1-3) implementation for TI Calypso-based phones, replacing proprietary baseband firmware entirely and enabling open research into the GSM air interface.
+* [Rayhunter](https://github.com/EFForg/rayhunter) ⭐ 5,598 | 🐛 94 | 🌐 Rust | 📅 2026-08-19 - EFF's open source Rust tool that runs on a cheap mobile hotspot to detect cell-site simulators (IMSI catchers/Stingrays) by monitoring signaling traffic for suspicious behavior like forced 2G downgrades.
+* [FirmWire](https://github.com/FirmWire/FirmWire) ⭐ 875 | 🐛 17 | 🌐 Python | 📅 2026-08-20 - Full-system emulation platform for Samsung (Shannon) and MediaTek cellular baseband firmware with AFL++ fuzzing integration, a task-injection ModKit, and dynamic debugging support. Found 7 pre-authentication memory corruptions. NDSS 2022.
+* [OsmocomBB](https://github.com/osmocom/osmocom-bb) ⭐ 331 | 🐛 1 | 🌐 C | 📅 2026-06-17 - Free Software GSM baseband (Layer 1-3) implementation for TI Calypso-based phones, replacing proprietary baseband firmware entirely and enabling open research into the GSM air interface.
 
 ### Firmware Malware Analysis
 
-* [emba](https://github.com/e-m-b-a/emba) ⭐ 3,598 | 🐛 27 | 🌐 Shell | 📅 2026-08-18 - Efficient malware analysis framework for embedded firmware with scanning and reporting.
+* [emba](https://github.com/e-m-b-a/emba) ⭐ 3,599 | 🐛 27 | 🌐 Shell | 📅 2026-08-18 - Efficient malware analysis framework for embedded firmware with scanning and reporting.
 * [Firmware Analysis Toolkit](https://github.com/attify/firmware-analysis-toolkit) ⭐ 1,581 | 🐛 51 | 🌐 Python | 📅 2024-09-16 - Automated tool for firmware emulation and vulnerability discovery.
-* [Firmware Security Testing](https://github.com/scriptingxss/owasp-fstm) ⭐ 486 | 🐛 5 | 📅 2026-06-08 - OWASP firmware security testing methodology and practical guidance for assessing embedded devices.
+* [Firmware Security Testing](https://github.com/scriptingxss/owasp-fstm) ⭐ 487 | 🐛 5 | 📅 2026-06-08 - OWASP firmware security testing methodology and practical guidance for assessing embedded devices.
 * [EMBArk](https://github.com/e-m-b-a/embark) ⭐ 394 | 🐛 14 | 🌐 Python | 📅 2026-07-31 - Enterprise web interface for EMBA providing multi-user scan management, aggregated vulnerability dashboards, and CI/CD integration for continuous firmware security monitoring.
 
 ### Emulation Tools
 
-* [Unicorn Engine](https://github.com/unicorn-engine/unicorn) ⭐ 9,244 | 🐛 212 | 🌐 C | 📅 2026-07-30 - A lightweight multi-architecture CPU emulator framework providing pure CPU emulation for ARM, MIPS, x86, RISC-V, and more.
-* [Qiling](https://github.com/qilingframework/qiling) ⭐ 6,065 | 🐛 123 | 🌐 Python | 📅 2026-07-22 - An advanced binary emulation framework supporting cross-platform OS-level emulation for Windows, Linux, Android, BSD, UEFI, and multiple architectures.
+* [Unicorn Engine](https://github.com/unicorn-engine/unicorn) ⭐ 9,247 | 🐛 213 | 🌐 C | 📅 2026-07-30 - A lightweight multi-architecture CPU emulator framework providing pure CPU emulation for ARM, MIPS, x86, RISC-V, and more.
+* [Qiling](https://github.com/qilingframework/qiling) ⭐ 6,063 | 🐛 123 | 🌐 Python | 📅 2026-07-22 - An advanced binary emulation framework supporting cross-platform OS-level emulation for Windows, Linux, Android, BSD, UEFI, and multiple architectures.
 * [PANDA](https://github.com/panda-re/panda) ⭐ 2,774 | 🐛 97 | 🌐 C | 📅 2026-07-29 - Platform for Architecture-Neutral Dynamic Analysis with record/replay functionality and LLVM IR translation for whole-system analysis.
 * [Firmadyne](https://github.com/firmadyne/firmadyne) ⭐ 2,100 | 🐛 107 | 🌐 Shell | 📅 2024-07-21 - Automated system for emulating and analyzing Linux-based embedded firmware; extracts and boots firmware images in QEMU to enable dynamic vulnerability discovery.
-* [FirmAE](https://github.com/pr0v3rbs/FirmAE) ⭐ 913 | 🐛 49 | 🌐 Python | 📅 2026-06-24 - An automated framework for emulation and vulnerability analysis of IoT firmware with an 79% success rate using arbitration techniques.
+* [FirmAE](https://github.com/pr0v3rbs/FirmAE) ⭐ 915 | 🐛 49 | 🌐 Python | 📅 2026-06-24 - An automated framework for emulation and vulnerability analysis of IoT firmware with an 79% success rate using arbitration techniques.
 * [Avatar2](https://github.com/avatartwo/avatar2) ⭐ 574 | 🐛 27 | 🌐 Python | 📅 2025-03-31 - Dynamic analysis orchestration framework for binary firmware that coordinates execution across emulators (QEMU, Unicorn) and real hardware targets.
 * [HALucinator](https://github.com/embedded-sec/halucinator) ⭐ 166 | 🐛 3 | 🌐 Python | 📅 2021-10-06 - MCU firmware emulation framework that replaces Hardware Abstraction Layer (HAL) functions with high-level models, enabling full firmware execution without physical hardware.
 * [FirmSolo](https://github.com/BUseclab/FirmSolo) ⭐ 22 | 🐛 2 | 🌐 Python | 📅 2024-07-16 - Reverse-engineers vendor Linux kernel module version magic to load proprietary `.ko` drivers into a compatible kernel for dynamic analysis and fuzzing, unlocking code previously inaccessible to emulators. USENIX Security 2023.
@@ -237,7 +237,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Hardware Reverse Engineering Multitools
 
-* [Tiguard](https://github.com/tigard-tools/tigard) ⭐ 855 | 🐛 2 | 📅 2026-05-29 - An FTDI FT2232H-based multi-protocol tool for hardware hacking.
+* [Tiguard](https://github.com/tigard-tools/tigard) ⭐ 857 | 🐛 2 | 📅 2026-05-29 - An FTDI FT2232H-based multi-protocol tool for hardware hacking.
 * [Bus Pirate](https://github.com/ElderlyPirate/Bus_Pirate) ⭐ 691 | 🐛 77 | 🌐 C | 📅 2025-12-28 - Open source hacker multi-tool that talks to electronic stuff. It's got a bunch of features an intrepid hacker might need to prototype their next project.
 * [Glasgow Interface Explorer](https://glasgow-embedded.org/) - Versatile open-source FPGA-based hardware debugging and reverse engineering tool supporting SPI, I2C, UART, JTAG, and custom protocols with a high-level Python API.
 * [GreatFET](https://greatscottgadgets.com/greatfet/) - Open-source USB host-side hardware security research platform from Great Scott Gadgets with an expandable neighbor board ecosystem for interfacing with embedded targets.
@@ -245,14 +245,14 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Hardware Debug Interfaces
 
-* [LUNA](https://github.com/greatscottgadgets/luna) ⭐ 1,131 | 🐛 33 | 🌐 Python | 📅 2026-06-04 - FPGA-based USB analysis and development platform from Great Scott Gadgets, enabling USB sniffing, protocol fuzzing, and custom USB peripheral development via Amaranth HDL.
+* [LUNA](https://github.com/greatscottgadgets/luna) ⭐ 1,131 | 🐛 32 | 🌐 Python | 📅 2026-08-19 - FPGA-based USB analysis and development platform from Great Scott Gadgets, enabling USB sniffing, protocol fuzzing, and custom USB peripheral development via Amaranth HDL.
 * [JTAGenum](https://github.com/cyphunk/JTAGenum) ⭐ 800 | 🐛 13 | 🌐 C++ | 📅 2023-10-30 - Enumerates JTAG pinouts on unknown boards by brute-force testing candidate pin mappings.
 * [JTAGulator](https://github.com/grandideastudio/jtagulator) ⭐ 800 | 🐛 3 | 🌐 Propeller Spin | 📅 2025-07-29 - Automates discovery of JTAG, SWD, and UART debug interfaces on unknown PCBs by brute-forcing pin combinations, with sigrok-compatible logic analyzer mode and direct OpenOCD integration for post-discovery exploitation.
 * [UrJTAG](https://urjtag.sourceforge.io/) - Open-source JTAG toolkit for boundary scan, flash programming, and low-level target interaction.
 
 ### Chip-Off and Memory Forensics
 
-* [CHIPSEC](https://github.com/chipsec/chipsec) ⭐ 3,297 | 🐛 55 | 🌐 Python | 📅 2026-08-18 - Platform security assessment framework with firmware and chipset checks relevant to offline dump triage.
+* [CHIPSEC](https://github.com/chipsec/chipsec) ⭐ 3,295 | 🐛 55 | 🌐 Python | 📅 2026-08-18 - Platform security assessment framework with firmware and chipset checks relevant to offline dump triage.
 * [NANDO](https://github.com/bbogush/nand_programmer) ⭐ 387 | 🐛 29 | 🌐 C | 📅 2025-04-13 - Open hardware STM32-based parallel NAND flash programmer with chip autodetection, bad block handling, and an extensible chip database; targets the parallel NAND found in older routers, set-top boxes, and automotive ECUs.
 * [SNANDer](https://github.com/McMCCRU/SNANDer) ⭐ 381 | 🐛 19 | 🌐 C | 📅 2026-05-20 - CLI programmer for SPI NOR/NAND flash and I2C EEPROMs using the ubiquitous $3 CH341A USB chip, extending it with NAND support beyond what proprietary software provides — the go-to for quick firmware dumps from IoT hardware.
 * [Flashrom](https://flashrom.org/) - Utility for identifying, reading, writing, and verifying SPI flash chips common in embedded boards.
@@ -260,7 +260,7 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### Side-Channel Analysis
 
-* [ChipWhisperer](https://github.com/newaetech/chipwhisperer) ⭐ 1,553 | 🐛 50 | 🌐 C | 📅 2026-08-17 - An open-source toolchain for side-channel power analysis and fault injection attacks with complete hardware and software stack.
+* [ChipWhisperer](https://github.com/newaetech/chipwhisperer) ⭐ 1,554 | 🐛 50 | 🌐 C | 📅 2026-08-19 - An open-source toolchain for side-channel power analysis and fault injection attacks with complete hardware and software stack.
 * [lascar](https://github.com/Ledger-Donjon/lascar) ⭐ 409 | 🐛 3 | 🌐 Python | 📅 2023-09-05 - Fast Python SCA library from Ledger's hardware wallet security team supporting CPA, DPA, MIA, template attacks, and ML-based attacks with lazy loading for large trace datasets.
 * [scared](https://github.com/eshard/scared) ⭐ 114 | 🐛 1 | 🌐 Python | 📅 2026-07-16 - Industrial-grade side-channel analysis framework from eShard with best-in-class trace processing performance; supports CPA, DPA, TVLA/NICV leakage assessment, and very large trace datasets.
 * [SCALE](https://github.com/danpage/scale) ⭐ 48 | 🐛 0 | 📅 2023-09-20 - Side-Channel Attack Lab Exercises providing educational material for learning power analysis attacks with low-cost hardware.
@@ -279,9 +279,9 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ### RF Tools (Non-SDR)
 
-* [Proxmark3](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,964 | 🐛 76 | 🌐 C | 📅 2026-08-19 - Open-source RFID research platform for low-level interaction, analysis, and testing across a wide range of LF and HF tags and systems.
-* [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 2,931 | 🐛 117 | 🌐 C | 📅 2026-08-10 - Pocket friendly powerful LF and HF emulation & manipulation tool which is based on the open-source project ChameleonMini.
-* [Awesome Flipper Zero](https://github.com/RogueMaster/awesome-flipperzero-withModules) ⭐ 2,005 | 🐛 0 | 🌐 C | 📅 2026-08-17 - A collection of Awesome resources for the Flipper Zero device.
+* [Proxmark3](https://github.com/RfidResearchGroup/proxmark3) ⭐ 5,968 | 🐛 77 | 🌐 C | 📅 2026-08-20 - Open-source RFID research platform for low-level interaction, analysis, and testing across a wide range of LF and HF tags and systems.
+* [ChameleonUltra](https://github.com/RfidResearchGroup/ChameleonUltra) ⭐ 2,935 | 🐛 117 | 🌐 C | 📅 2026-08-10 - Pocket friendly powerful LF and HF emulation & manipulation tool which is based on the open-source project ChameleonMini.
+* [Awesome Flipper Zero](https://github.com/RogueMaster/awesome-flipperzero-withModules) ⭐ 2,006 | 🐛 0 | 🌐 C | 📅 2026-08-20 - A collection of Awesome resources for the Flipper Zero device.
 * [Flipper Zero](https://docs.flipper.net/) - Portable multi-tool for pentesters and geeks in a toy-like body. It loves hacking digital stuff, such as radio protocols, access control systems, hardware and more.
 * [Yard Stick One](https://greatscottgadgets.com/yardstickone/) - Transmit or receive digital wireless signals at frequencies below 1 GHz. It uses the same radio circuit as the popular IM-Me.
 * [Bruce](https://bruce.computer/) - Powerful open-source ESP32 firmware designed for offensive security and Red Team operations.
@@ -300,11 +300,11 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 ### Wifi Tools
 
 * [Pwnagotchi](https://pwnagotchi.ai/) - A2C-based “AI” powered by bettercap and running on a Raspberry Pi Zero W that learns from its surrounding WiFi environment in order to maximize the crackable WPA key material it captures.
-* [ESP32Maurauder](https://github.com/justcallmekoko/ESP32Marauder) ⭐ 12,032 | 🐛 326 | 🌐 C++ | 📅 2026-08-19 - A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32.
+* [ESP32Maurauder](https://github.com/justcallmekoko/ESP32Marauder) ⭐ 12,040 | 🐛 326 | 🌐 C++ | 📅 2026-08-20 - A suite of WiFi/Bluetooth offensive and defensive tools for the ESP32.
 
 ## Further Learning and Training
 
-* [HardwareAllTheThings](https://github.com/swisskyrepo/HardwareAllTheThings) ⭐ 928 | 🐛 0 | 🌐 HTML | 📅 2026-08-09 - Actively maintained hardware and IoT pentesting wiki by swisskyrepo covering fault injection, JTAG/SWD/UART exploitation, firmware dumping, side-channel attacks, and RF attacks with practical tooling references.
+* [HardwareAllTheThings](https://github.com/swisskyrepo/HardwareAllTheThings) ⭐ 929 | 🐛 0 | 🌐 HTML | 📅 2026-08-09 - Actively maintained hardware and IoT pentesting wiki by swisskyrepo covering fault injection, JTAG/SWD/UART exploitation, firmware dumping, side-channel attacks, and RF attacks with practical tooling references.
 * [DVRF](https://github.com/praetorian-inc/DVRF) ⚠️ Archived - Damn Vulnerable Router Firmware: modified Linksys firmware containing intentional MIPS/ARM binary exploitation challenges (buffer overflows, format strings, heap bugs) runnable under QEMU without physical hardware.
 * [DVID](https://github.com/Vulcainreo/DVID) ⭐ 225 | 🐛 3 | 🌐 C | 📅 2024-02-12 - Damn Vulnerable IoT Device: open hardware ATmega328p board (Gerbers published) purpose-built for practicing UART extraction, firmware dumping, and Bluetooth sniffing attacks on physical hardware.
 * [Embeddedsecurity.io](https://embeddedsecurity.io/) - Beginners resource on embedded systems security.
@@ -318,33 +318,33 @@ Topics covered include firmware extraction and fuzzing, secure boot and root of 
 
 ## Open Source Intelligence (OSINT)
 
-* [Awesome OSINT](https://github.com/jivoi/awesome-osint) ⭐ 28,166 | 🐛 3 | 📅 2026-08-18
+* [Awesome OSINT](https://github.com/jivoi/awesome-osint) ⭐ 28,189 | 🐛 4 | 📅 2026-08-18
 
 ## Other Awesome Lists
 
 List of security lists.
 
 * General Security
-  * [Hacking](https://github.com/carpedm20/awesome-hacking) ⭐ 16,899 | 🐛 68 | 📅 2024-06-02
-  * [Security](https://github.com/sbilly/awesome-security) ⭐ 14,766 | 🐛 309 | 📅 2026-01-11
-  * [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) ⭐ 14,133 | 🐛 25 | 📅 2024-06-07
-  * [Capture the Flag](https://github.com/apsdehal/awesome-ctf) ⭐ 11,765 | 🐛 64 | 🌐 JavaScript | 📅 2024-07-22
-  * [Honeypots](https://github.com/paralax/awesome-honeypots) ⭐ 10,522 | 🐛 21 | 🌐 Python | 📅 2026-06-01
-  * [Android Security](https://github.com/ashishb/android-security-awesome) ⭐ 9,618 | 🐛 2 | 🌐 Makefile | 📅 2026-08-17
-  * [Incident Response](https://github.com/meirwah/awesome-incident-response) ⭐ 9,338 | 🐛 74 | 📅 2026-07-15
-  * [Application Security](https://github.com/paragonie/awesome-appsec) ⭐ 7,034 | 🐛 40 | 🌐 PHP | 📅 2025-02-22
-  * [Fuzzing](https://github.com/cpuu/awesome-fuzzing) ⭐ 986 | 🐛 1 | 📅 2026-07-09
+  * [Hacking](https://github.com/carpedm20/awesome-hacking) ⭐ 16,907 | 🐛 68 | 📅 2024-06-02
+  * [Security](https://github.com/sbilly/awesome-security) ⭐ 14,770 | 🐛 310 | 📅 2026-01-11
+  * [Malware Analysis](https://github.com/rshipp/awesome-malware-analysis) ⭐ 14,137 | 🐛 25 | 📅 2024-06-07
+  * [Capture the Flag](https://github.com/apsdehal/awesome-ctf) ⭐ 11,772 | 🐛 64 | 🌐 JavaScript | 📅 2024-07-22
+  * [Honeypots](https://github.com/paralax/awesome-honeypots) ⭐ 10,524 | 🐛 22 | 🌐 Python | 📅 2026-06-01
+  * [Android Security](https://github.com/ashishb/android-security-awesome) ⭐ 9,623 | 🐛 1 | 🌐 Makefile | 📅 2026-08-19
+  * [Incident Response](https://github.com/meirwah/awesome-incident-response) ⭐ 9,341 | 🐛 74 | 📅 2026-07-15
+  * [Application Security](https://github.com/paragonie/awesome-appsec) ⭐ 7,036 | 🐛 40 | 🌐 PHP | 📅 2025-02-22
+  * [Fuzzing](https://github.com/cpuu/awesome-fuzzing) ⭐ 987 | 🐛 1 | 📅 2026-07-09
 * Embedded
-  * [General Embedded](https://github.com/nhivp/Awesome-Embedded) ⭐ 8,999 | 🐛 2 | 📅 2026-08-12
-  * [Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,423 | 🐛 2 | 📅 2023-10-17
+  * [General Embedded](https://github.com/nhivp/Awesome-Embedded) ⭐ 9,006 | 🐛 2 | 📅 2026-08-12
+  * [Embedded and IoT Security](https://github.com/fkie-cad/awesome-embedded-and-iot-security) ⭐ 2,424 | 🐛 2 | 📅 2023-10-17
 * Domain Specific
   * Automotive
-    * [CANbus](https://github.com/iDoka/awesome-canbus) ⭐ 3,420 | 🐛 6 | 📅 2026-08-07
+    * [CANbus](https://github.com/iDoka/awesome-canbus) ⭐ 3,422 | 🐛 6 | 📅 2026-08-07
     * [CANb IDs](https://github.com/iDoka/awesome-automotive-can-id) ⭐ 976 | 🐛 0 | 📅 2026-08-12
     * [Awesome Automotive Security](https://github.com/hexsecs/awesome-automotive-security) ⭐ 9 | 🐛 0 | 📅 2026-05-16
 * Meta
-  * [awesome](https://github.com/sindresorhus/awesome) ⭐ 497,658 | 🐛 102 | 📅 2026-08-18
-  * [lists](https://github.com/jnv/lists) ⭐ 11,422 | 🐛 21 | 📅 2026-03-23
+  * [awesome](https://github.com/sindresorhus/awesome) ⭐ 498,017 | 🐛 105 | 📅 2026-08-18
+  * [lists](https://github.com/jnv/lists) ⭐ 11,424 | 🐛 21 | 📅 2026-03-23
 
 ## Contribute
 
@@ -352,4 +352,4 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-19._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-20._
